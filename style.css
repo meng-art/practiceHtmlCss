@@ -1,0 +1,252 @@
+body {
+    margin: 0 auto;
+    padding: 20;
+    font-family: 'Microsoft yahei', Serif;
+    font-size: 15px;
+}
+
+header {
+    background-image: url("images/bg.jpg");
+    background-repeat: round;
+    object-fit: cover;
+    height: 500px;
+    flex-flow: row;
+}
+
+.headerTop {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: space-between;
+    position: fixed;
+}
+
+.headerTitle {
+    height: 80px;
+    padding-left: 40px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.headerTopTitle {
+    color: white;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* 顶部导航栏 */
+nav {
+    height: 80px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li a {
+    color: white;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.manage {
+    background-color: grey;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: black;
+}
+
+nav li a:active {
+    color: black;
+    background-color: white;
+}
+
+/* 欢迎词 */
+.headerBottomDiv {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerBottomDiv span {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+
+
+/* 主要内容 */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* 课程宗旨 */
+.coursePurpose {
+    clear: both;
+    margin-top: 10px;
+}
+
+.coursePurpose h2 {
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.purposeImg {
+    display: flex;
+}
+
+.purposeImg h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.purposeImg img {
+    width: 250px;
+    height: 180px;
+    margin-right: 20px;
+
+}
+
+/* 课程安排 */
+.courseSechdule {
+    display: flex;
+    flex-direction: column;
+}
+
+.courseSechdule h2 {
+    font-size: 30px;
+    margin-top: 75px;
+    text-align: center;
+
+}
+
+.courseDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1080px;
+}
+
+.course {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.course h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.course p {
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.course img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+/*底部标签*/
+footer {
+    background-color: gainsboro;
+    height: 250px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: monospace;
+}
+
+/* 底部logo */
+.webFooterLogo {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.webFooterLogo1,
+.webFooterLogo2,
+.webFooterLogo3 {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.webFooterLogo span {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 8px;
+}
+
+/* 底部链接 */
+.footerLinks {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.link1,
+.link2,
+.link3 {
+    padding-right: 70px;
+}
+
+.footerLinks ul {
+    list-style-type: none;
+}
+
+.footerLinks a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 8px;
+    margin-left: -40px;
+}
+
+.footerLinks a:hover {
+    color: white;
+}
